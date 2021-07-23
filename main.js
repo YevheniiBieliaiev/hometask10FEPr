@@ -17,6 +17,7 @@ setTimeout(coffeeMachine.start.bind(teaPlease), 3000);// 'Wanna some tea instead
 
 
 /*2)*/
+console.log(`Second task:`);
 function concatStr(...args) {
   console.log(args.join("").concat());
 }
@@ -30,6 +31,7 @@ let finalResult_2 = hello('John'); // 'Hello John'
 
 
 /*3)*/
+console.log(`Third task`);
 function showNumbers(start, end, delay) {
   let timerId = setTimeout(function counter() {
     console.log(start);
